@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LinearAlgebra">
+      <UniqueIdentifier>{9a55a7f2-8dbe-493d-a8f1-6376d28934ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Series">
+      <UniqueIdentifier>{680e8299-109a-42d4-8a62-392317981f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Random">
+      <UniqueIdentifier>{6e2a9d18-a65f-4108-a1e0-15d1c1921c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LinearAlgebra">
+      <UniqueIdentifier>{bf93db32-6827-497e-9748-b9fdd346641b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Series">
+      <UniqueIdentifier>{9ecd70ce-4ead-4ee1-a5fb-334e84068a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{5ca1c621-ea33-4d4f-b5a5-69fe5ccb7d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\HabuMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Matrix.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Point.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Vector.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Fibonacci.cpp">
+      <Filter>Source Files\Series</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Random.cpp">
+      <Filter>Source Files\Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\HabuMath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Matrix.hpp">
+      <Filter>Header Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Point.hpp">
+      <Filter>Header Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Vector.hpp">
+      <Filter>Header Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Fibonacci.hpp">
+      <Filter>Header Files\Series</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Random.hpp">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

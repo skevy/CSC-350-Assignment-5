@@ -1,0 +1,307 @@
+Scene:Name=SimpleScene
+Light:[0]
+{
+  Ambient:{R=0.25 G=0.25 B=0.25}
+  Diffuse:{R=0.75 G=0.75 B=0.75}
+  Position:{X=0.0 Y=0.0 Z=6.0}
+}
+Camera:[0]
+{
+  Position:{X=0.0 Y=2.25 Z=6.0}
+  Orientation:{Y=0.0 P=0.0 R=0.0}
+  Up:{X=0.0 Y=1.0 Z=0.0}
+  FOV:{Y=45.0}
+  Clip:{N=1.0 F=100.0}
+}
+Texture:[0]Name=Flower
+{
+  Type:{TGA}
+  File:{image.tga}
+}
+
+Mesh:[0]Name=SingleQuad
+{
+  Centroid:{X=0.0 Y=2.0 Z=0.0}
+  Quad:[0]
+  {
+    Vertex:[0]
+    {
+      X=-1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Vertex:[1]
+    {
+      X=1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Vertex:[2]
+    {
+      X=1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Vertex:[3]
+    {
+      X=-1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Normal:{X=0.0 Y=0.0 Z=1.0}
+  }
+  Quad:[1]
+  {
+    Vertex:[0]
+    {
+      X=-1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=-1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Normal:{X=0.0 Y=0.0 Z=-1.0}
+  }
+  Quad:[2]
+  {
+    Vertex:[0]
+    {
+      X=-1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Vertex:[1]
+    {
+      X=-1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Vertex:[2]
+    {
+      X=1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Vertex:[3]
+    {
+      X=1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Normal:{X=0.0 Y=1.0 Z=0.0}
+  }
+  Quad:[3]
+  {
+    Vertex:[0]
+    {
+      X=-1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Vertex:[1]
+    {
+      X=1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Vertex:[2]
+    {
+      X=1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Vertex:[3]
+    {
+      X=-1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Normal:{X=0.0 Y=-1.0 Z=0.0}
+  }
+  Quad:[4]
+  {
+    Vertex:[0]
+    {
+      X=1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Normal:{X=1.0 Y=0.0 Z=0.0}
+  }
+  Quad:[5]
+  {
+    Vertex:[0]
+    {
+      X=-1.0 Y=-1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=0.0}
+    Vertex:[1]
+    {
+      X=-1.0 Y=-1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=0.0}
+    Vertex:[2]
+    {
+      X=-1.0 Y=1.0 Z=1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=1.0 V=1.0}
+    Vertex:[3]
+    {
+      X=-1.0 Y=1.0 Z=-1.0 R=0.0 G=0.0 B=1.0
+    }
+    Texture:[0]{U=0.0 V=1.0}
+    Normal:{X=-1.0 Y=0.0 Z=0.0}
+  }
+}
+Texture:[1]Name=Grass
+{
+  Type:{TGA}
+  File:{Grass.TGA}
+}
+Mesh:[1]Name=Grass
+{
+  Centroid:{X=0.0 Y=0.0 Z=0.0}
+  Quad:[0]
+  {
+    Vertex:[0]
+    {
+      X=4.0 Y=0.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[1]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=-4.0 Y=0.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[1]{U=0.0 V=0.0}
+    Vertex:[2]
+    {
+      X=-4.0 Y=0.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[1]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=4.0 Y=0.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[1]{U=1.0 V=1.0}
+    Normal:{X=0.0 Y=1.0 Z=0.0}
+  }
+}
+Texture:[2]Name=Wall
+{
+  Type:{TGA}
+  File:{wall.tga}
+}
+Mesh:[2]Name=Walls
+{
+  Centroid:{X=0.0 Y=4.0 Z=0.0}
+  Quad:[0]
+  {
+    Vertex:[0]
+    {
+      X=4.0 Y=-4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=4.0 Y=4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=-4.0 Y=4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=-4.0 Y=-4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=0.0}
+    Normal:{X=0.0 Y=0.0 Z=1.0}
+  }
+  Quad:[1]
+  {
+    Vertex:[0]
+    {
+      X=-4.0 Y=-4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=-4.0 Y=4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=4.0 Y=4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=4.0 Y=-4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=0.0}
+    Normal:{X=0.0 Y=0.0 Z=1.0}
+  }
+  Quad:[2]
+  {
+    Vertex:[0]
+    {
+      X=-4.0 Y=-4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=-4.0 Y=4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=-4.0 Y=4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=-4.0 Y=-4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=0.0}
+    Normal:{X=0.0 Y=0.0 Z=1.0}
+  }
+  Quad:[3]
+  {
+    Vertex:[0]
+    {
+      X=4.0 Y=-4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=0.0}
+    Vertex:[1]
+    {
+      X=4.0 Y=4.0 Z=4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=1.0 V=1.0}
+    Vertex:[2]
+    {
+      X=4.0 Y=4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=1.0}
+    Vertex:[3]
+    {
+      X=4.0 Y=-4.0 Z=-4.0 R=0.0 G=1.0 B=0.0
+    }
+    Texture:[2]{U=0.0 V=0.0}
+    Normal:{X=0.0 Y=0.0 Z=1.0}
+  }
+}

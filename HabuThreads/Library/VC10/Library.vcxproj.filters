@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sync">
+      <UniqueIdentifier>{d1f866d8-abe0-4fc0-93a2-883626aa59b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Proc">
+      <UniqueIdentifier>{a6b4badf-0bc3-4aed-b9a9-632ef9aeb865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sleep">
+      <UniqueIdentifier>{8cccfad5-def3-4fc8-b760-311a26be5d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Multiplex">
+      <UniqueIdentifier>{a1792cb0-d17d-4381-b61f-72bd8632cf24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timers">
+      <UniqueIdentifier>{09f35977-fc52-4189-94cf-127be68bec9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Sync">
+      <UniqueIdentifier>{1e4e7dbb-4956-4d31-970a-ef1db242c999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Proc">
+      <UniqueIdentifier>{74b37e5e-5321-4e62-814b-e2f8cd756fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sleep">
+      <UniqueIdentifier>{bd848a0e-f840-4f7e-b74f-de33a1b619a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Multiplex">
+      <UniqueIdentifier>{009539ca-3f8d-4280-8620-c4588c1a9d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timers">
+      <UniqueIdentifier>{8cb3bb4a-af9f-4f84-8254-2ca926091228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Event.cpp">
+      <Filter>Source Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Mutex.cpp">
+      <Filter>Source Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Sync.cpp">
+      <Filter>Source Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Thread.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Wait.cpp">
+      <Filter>Source Files\Sleep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Multiplexer.cpp">
+      <Filter>Source Files\Multiplex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Timer.cpp">
+      <Filter>Source Files\Timers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\HabuThreads.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Event.hpp">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mutex.hpp">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Sync.hpp">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Thread.hpp">
+      <Filter>Header Files\Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Wait.hpp">
+      <Filter>Header Files\Sleep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Multiplexer.hpp">
+      <Filter>Header Files\Multiplex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Timer.hpp">
+      <Filter>Header Files\Timers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

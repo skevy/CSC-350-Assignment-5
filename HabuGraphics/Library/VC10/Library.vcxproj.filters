@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d62a2445-4926-4922-87f8-84529bac5a98}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{e2caaffb-b633-4cdd-a9a6-686d0fcc1b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Surfaces">
+      <UniqueIdentifier>{6d807902-d932-4ca1-9980-8b46d975fef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fonts">
+      <UniqueIdentifier>{73dcbc44-72cb-4483-ae3e-e944e53a2f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{2d2009b2-8a2b-4aaf-ba07-94fdad10d0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{edef34bc-7a2e-459b-ba67-b965ce6ec6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Meshes">
+      <UniqueIdentifier>{e88064b5-ca72-4ca0-9c79-94af3902c58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Light">
+      <UniqueIdentifier>{5fa87abe-661d-47d1-8289-345644f10085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Camera">
+      <UniqueIdentifier>{d162e704-7b43-42e2-9de2-98cfd9beae77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ff7b33f6-994d-4b6e-b231-29334f004706}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{41fad2c0-1fa8-4482-83bf-00b714759bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Surfaces">
+      <UniqueIdentifier>{58be2d45-be78-4499-82b5-10941c1cf3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fonts">
+      <UniqueIdentifier>{e3c097b9-25d3-4146-ae87-2211edb16ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{9d030321-7f56-45a8-b209-62f24ef97af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{4aa0e60b-ce6f-46e0-9954-0879cbe9c007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Meshes">
+      <UniqueIdentifier>{118a1089-0bc2-492f-996b-1c9e64a83569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Camera">
+      <UniqueIdentifier>{a83c26a2-50e9-4674-921d-b7ad0dad26aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Light">
+      <UniqueIdentifier>{9ec8650c-acf1-491a-b34d-3890b84867a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{75db8784-3715-4d90-b5b4-4b3c853a6557}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\HabuGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Statistics.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Surface.cpp">
+      <Filter>Source Files\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Texture.cpp">
+      <Filter>Source Files\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Font.cpp">
+      <Filter>Source Files\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Mesh.cpp">
+      <Filter>Source Files\Objects\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Light.cpp">
+      <Filter>Source Files\Objects\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Camera.cpp">
+      <Filter>Source Files\Objects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Cylinder.cpp">
+      <Filter>Source Files\Objects\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Material.cpp">
+      <Filter>Source Files\Surfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\HabuGraphics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Statistics.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Utility.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Surface.hpp">
+      <Filter>Header Files\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Texture.hpp">
+      <Filter>Header Files\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Font.hpp">
+      <Filter>Header Files\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scene.hpp">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Object.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mesh.hpp">
+      <Filter>Header Files\Objects\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Camera.hpp">
+      <Filter>Header Files\Objects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Light.hpp">
+      <Filter>Header Files\Objects\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Cylinder.hpp">
+      <Filter>Header Files\Objects\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Material.hpp">
+      <Filter>Header Files\Surfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

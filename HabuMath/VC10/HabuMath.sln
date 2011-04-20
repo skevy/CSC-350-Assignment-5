@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LPad", "..\LPad\VC10\LPad.vcxproj", "{F333767D-F20F-4504-89E6-C63121669634}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "..\Library\VC10\Library.vcxproj", "{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F333767D-F20F-4504-89E6-C63121669634}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F333767D-F20F-4504-89E6-C63121669634}.Debug|Win32.Build.0 = Debug|Win32
+		{F333767D-F20F-4504-89E6-C63121669634}.Debug|x64.ActiveCfg = Debug|x64
+		{F333767D-F20F-4504-89E6-C63121669634}.Debug|x64.Build.0 = Debug|x64
+		{F333767D-F20F-4504-89E6-C63121669634}.Release|Win32.ActiveCfg = Release|Win32
+		{F333767D-F20F-4504-89E6-C63121669634}.Release|Win32.Build.0 = Release|Win32
+		{F333767D-F20F-4504-89E6-C63121669634}.Release|x64.ActiveCfg = Release|x64
+		{F333767D-F20F-4504-89E6-C63121669634}.Release|x64.Build.0 = Release|x64
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Debug|Win32.Build.0 = Debug|Win32
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Debug|x64.ActiveCfg = Debug|x64
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Debug|x64.Build.0 = Debug|x64
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Release|Win32.ActiveCfg = Release|Win32
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Release|Win32.Build.0 = Release|Win32
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Release|x64.ActiveCfg = Release|x64
+		{E56FC624-BACA-4801-A800-0EFCA0FF8CEF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

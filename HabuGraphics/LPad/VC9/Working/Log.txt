@@ -1,0 +1,5 @@
+<+>Registering data path -> Data/Textures/
+<+>Registering data path -> Data/XML/
+<+>Registering data path -> Data/GUI/
+<+>Loaded Texture2D file at -> Data/Textures/GUIElements.PNG
+<+>Loaded Texture2D file at -> Data/Textures/ArialSmall.tga
